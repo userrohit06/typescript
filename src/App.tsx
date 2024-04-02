@@ -1,8 +1,12 @@
 import React from 'react'
+import TaskShow from './components/2_interface'
 
 const App = () => {
   return (
-    <h1>Typescript</h1>
+    <div>
+      <h1>Typescript</h1>
+      <TaskShow title='Hello' completed={true} />
+    </div>
   )
 }
 
